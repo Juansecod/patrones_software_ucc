@@ -9,17 +9,7 @@ package bridgeapplication;
  * @author juans
  */
 public class SuraClient extends Client {
-    
     public SuraClient(String group) {
-        super(group);
-    }
-    
-    @Override
-    public void showAll(){
-        System.out.println("-------------------------------------------------------------");
-        System.out.println("Administrators Users");
-        super.showAll(); 
-        System.out.println("-------------------------------------------------------------");
-        System.out.println();
+        super(group, new ConcreteDataObjectImplementor());
     }
 }

@@ -10,16 +10,13 @@ import java.util.ArrayList;
  *
  * @author juans
  */
-public class UsersData implements DataObject{
+public class ConcreteDataObjectImplementor implements DataObjectImplemenor{
      private final ArrayList<String> _defaultUsers = new ArrayList<String>();
-
-    public void DefaultUsersData(){
-        
-    }
     
     @Override
     public void showAll() {
         System.out.println(this._defaultUsers);
+        System.out.println();
     }
 
     @Override

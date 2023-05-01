@@ -9,38 +9,24 @@ package bridgeapplication;
  * @author juans
  */
 public abstract class Client {
-    private DataObject _data;
+    protected DataObjectImplemenor dataObjectImplementor;
     protected String group;
-    
-    public Client(String group){
+
+    public Client(String group, DataObjectImplemenor dataObjectImplementor) {
         this.group = group;
-    };
-    
-     /**
-     * @return the _data
-     */
-    public DataObject getData() {
-        return _data;
+        this.dataObjectImplementor = dataObjectImplementor;
     }
 
-    /**
-     * @param _data the _data to set
-     */
-    public void setData(DataObject data) {
-        this._data = data;
-    }
-    
-    public void showAll(){
+    public void showAll() {
         System.out.println("Group: " + this.group);
-        this._data.showAll(); 
-    }
-    
-    public void addUser(String user){
-        this._data.appendUser(user);
-    }
-    
-    public void deleteUser(String user){
-        this._data.deleteUser(user);
+        this.dataObjectImplementor.showAll();
     }
 
+    public void addUser(String user) {
+        this.dataObjectImplementor.appendUser(user);
+    }
+
+    public void deleteUser(String user) {
+        this.dataObjectImplementor.deleteUser(user);
+    }
 }

@@ -10,13 +10,6 @@ package bridgeapplication;
  */
 public class EcopetrolClient extends Client {
     public EcopetrolClient(String group) {
-        super(group);
-    }
-    
-    @Override
-    public void showAll(){
-        System.out.println("Default Users");
-        super.showAll(); 
-        System.out.println();
+        super(group, new ConcreteDataObjectImplementor());
     }
 }
