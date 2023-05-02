@@ -9,10 +9,10 @@ package bridgeapplication;
  * @author juans
  */
 public abstract class Client {
-    protected DataObjectImplemenor dataObjectImplementor;
+    protected DataObjectImplementor dataObjectImplementor;
     protected String group;
 
-    public Client(String group, DataObjectImplemenor dataObjectImplementor) {
+    public Client(String group, DataObjectImplementor dataObjectImplementor) {
         this.group = group;
         this.dataObjectImplementor = dataObjectImplementor;
     }

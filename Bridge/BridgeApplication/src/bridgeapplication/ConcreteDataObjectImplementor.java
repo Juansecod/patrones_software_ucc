@@ -10,7 +10,7 @@ import java.util.ArrayList;
  *
  * @author juans
  */
-public class ConcreteDataObjectImplementor implements DataObjectImplemenor{
+public class ConcreteDataObjectImplementor implements DataObjectImplementor{
      private final ArrayList<String> _defaultUsers = new ArrayList<String>();
     
     @Override

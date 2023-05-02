@@ -8,7 +8,7 @@ package bridgeapplication;
  *
  * @author juans
  */
-public interface DataObjectImplemenor {
+public interface DataObjectImplementor {
     public void showAll();
     public void appendUser(String user);
     public void deleteUser(String user);
