@@ -1,1 +1,68 @@
-<mxfile host="app.diagrams.net" modified="2023-05-02T00:21:19.547Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" version="20.3.0" etag="ANKu4DBwDFScIDXQrvER" type="github"><diagram id="0yDl1CsS1_2p9jbcd7m1">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-05-02T01:07:16.274Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="0Ogae5Miuo_kPQR_jaYw" version="20.3.0" type="github">
+  <diagram id="0yDl1CsS1_2p9jbcd7m1" name="Página-1">
+    <mxGraphModel dx="1102" dy="620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="830" pageHeight="480" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gt7UqvYXyHpmLO9sHd0m-7" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Abstract&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Client&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font size=&quot;3&quot;&gt;+ dataObjectImplementor:&amp;nbsp;&lt;span style=&quot;text-align: center;&quot;&gt;DataObjectImplementor&lt;/span&gt;&lt;br&gt;+ group: String&lt;/font&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font size=&quot;3&quot;&gt;+ Client(group: String, dataObjectImplementor:&amp;nbsp;&lt;/font&gt;&lt;/p&gt;&lt;font size=&quot;3&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;DataObjectImplementor&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;span style=&quot;text-align: center;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font size=&quot;3&quot;&gt;+ showAll(): void&lt;br&gt;+ adduser(user: String): void&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font size=&quot;3&quot;&gt;+ deleteUser(user: String): void&lt;/font&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="42" width="370" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="gt7UqvYXyHpmLO9sHd0m-8" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;DataObjectImplementor&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font size=&quot;3&quot;&gt;+ showAll(): Void&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;font size=&quot;3&quot;&gt;+ appendUser(String): Void&lt;br&gt;+ DeleteUser(String): Void&lt;/font&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="574" y="40" width="210" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="gt7UqvYXyHpmLO9sHd0m-11" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;fontSize=14;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="gt7UqvYXyHpmLO9sHd0m-7">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="205" y="352" as="sourcePoint" />
+            <mxPoint x="470" y="312" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gt7UqvYXyHpmLO9sHd0m-20" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;SuraClient&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ SuraClient(gropu: String)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="392" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gt7UqvYXyHpmLO9sHd0m-23" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;EcopetrolClient&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ SuraClient(gropu: String)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="392" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gt7UqvYXyHpmLO9sHd0m-24" value="" style="endArrow=none;html=1;rounded=0;fontSize=14;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="gt7UqvYXyHpmLO9sHd0m-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="205" y="352" as="sourcePoint" />
+            <mxPoint x="420" y="282" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="340" y="352" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gt7UqvYXyHpmLO9sHd0m-25" value="" style="endArrow=none;html=1;rounded=0;fontSize=14;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="gt7UqvYXyHpmLO9sHd0m-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="352" as="sourcePoint" />
+            <mxPoint x="350" y="402" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="110" y="352" />
+              <mxPoint x="100" y="352" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gt7UqvYXyHpmLO9sHd0m-30" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;fontSize=14;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="gt7UqvYXyHpmLO9sHd0m-8">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="420" y="95" as="sourcePoint" />
+            <mxPoint x="570" y="95" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gt7UqvYXyHpmLO9sHd0m-31" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;fontSize=14;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="gt7UqvYXyHpmLO9sHd0m-8" target="gt7UqvYXyHpmLO9sHd0m-7">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="490" y="95" as="sourcePoint" />
+            <mxPoint x="430" y="102" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gt7UqvYXyHpmLO9sHd0m-33" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;fontSize=14;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="gt7UqvYXyHpmLO9sHd0m-34" target="gt7UqvYXyHpmLO9sHd0m-8">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="675" y="222" as="sourcePoint" />
+            <mxPoint x="684" y="172" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gt7UqvYXyHpmLO9sHd0m-34" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;ConcreteDataObjectImplementor&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;font size=&quot;3&quot;&gt;+ _defaultUsers: ArrayList&amp;lt;String&amp;gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="549" y="212" width="260" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
