@@ -8,6 +8,6 @@ En otras palabras, el patrón Bridge se utiliza cuando se desea desacoplar la l�
 
 En este ejemplo, la jerarquia `Client` actua como una **Abstraccion**, y la jerarquia `DataObjectImplementor` actua como una **Implementacion** Los objetos de la clase `Client` pueden mostrar por conosola los datos proporcionados por un objeto `DataObjectImplementor`. Al estar ambas jerarquias de clase separadas, se pueden añadir una nueva clase `DataObjectImplementor` sin cambiar ninguna de las clases `Client` y vicebersa.
 
-A continuacion se presenta un diagrama de clases del programa:
+>A continuacion se presenta un diagrama de clases del programa:
 
-![Diagrama de clases](./BridgePattern.svg)
+<img src="./BridgePattern.svg" alt="Diagrama de clases" style="padding: 5%; background: white"/>
