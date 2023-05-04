@@ -14,4 +14,4 @@ Se enfocan en cómo se componen y estructuran los objetos en una aplicación. Ay
 
 3. **Comportamentales:**
 Se centran en cómo los objetos interactúan y distribuyen responsabilidades dentro de una aplicación. Se ocupan de cómo los objetos colaboran y se comunican entre sí para lograr una tarea determinada.
-    - [Command](./)
+    - [Command](./Command)
