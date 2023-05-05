@@ -6,7 +6,7 @@ Los patrones de software son una solución probada y reusable para un problema c
 
 1. **Creacionales:**
 Se utilizan para la creación de objetos y se centran en cómo se crean los objetos, cómo se inicializan y cómo se agrupan para formar estructuras más complejas.
-    - [Abstract Factory](./)
+    - [Abstract Factory](./AbstractFactory)
 
 2. **Estructurales:**
 Se enfocan en cómo se componen y estructuran los objetos en una aplicación. Ayudan a definir cómo las diferentes partes de un sistema se relacionan entre sí y cómo se organizan para formar una estructura coherente.
